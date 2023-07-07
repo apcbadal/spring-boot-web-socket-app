@@ -1,5 +1,5 @@
 # Start with a base image containing Java runtime
-FROM openjdk:11
+FROM --platform=linux/x86-64 openjdk:11
 
 # Add Maintainer Info
 MAINTAINER Anshuman <apcbadal@gmail.com>
